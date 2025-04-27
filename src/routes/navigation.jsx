@@ -3,7 +3,7 @@ import { Grid, Home as HomeIcon } from "lucide-react";
 
 //* Pages imports
 import Home from "@/pages/public";
-import Dashboard from "@/pages/public/dashboard";
+import Programacao from "@/pages/public/dashboard";
 
 /**
  * 1. Add the path we want or our component to be displayed.
@@ -21,8 +21,8 @@ import Dashboard from "@/pages/public/dashboard";
  *
  **/
 const navigation = [
-  { path: "/", component: <Home />, icon: <HomeIcon /> },
-  { path: "/dashboard", component: <Dashboard />, icon: <Grid /> },
+  { path: "/", component: <Home />},
+  { path: "/programacao", component: <Programacao />},
 ];
 
 export default navigation;
